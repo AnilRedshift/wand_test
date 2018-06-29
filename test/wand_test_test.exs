@@ -3,6 +3,6 @@ defmodule WandTestTest do
   doctest WandTest
 
   test "greets the world" do
-    assert WandTest.hello() == :world
+    assert WandTest.hello() == "\"world\""
   end
 end
